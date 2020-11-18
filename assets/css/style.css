@@ -1,0 +1,88 @@
+body {
+     background-color:  #f7975d;
+     color: whitesmoke;
+
+}
+
+.molleCursive {
+  font-family:   'Molle', cursive;
+}
+
+#blocOne {
+    color: whitesmoke;
+    width: 100%;
+   
+}
+
+.illustration {
+    width: 40%;
+    height: auto;
+}
+
+.playerOne {
+    width: 80%;
+    height: auto;
+}
+
+.playerTwo {
+    width: 80%;
+    height: auto;
+}
+
+.troisIllustration {
+    margin-bottom: 70px
+}
+
+.containerFooter {
+     background-color: #fbdba8;
+     position: absolute;
+     bottom: 0;
+     padding: 25px;
+     font-size: 20px;
+     font-weight: bold;
+}
+
+.color {
+    color: #f7975d;
+}
+
+.test{flex-direction: column;
+
+}
+
+@media screen and (max-width: 700px){
+  
+
+   /* .shifumi {
+        max-height: 200px;
+        width: 30%;
+        border : 1px solid black;
+    
+        
+    }*/
+
+    
+
+
+    .troisIllustration { 
+    }
+
+    .player {
+        max-height: auto;
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        
+    }
+
+    .containerFooter {
+        max-height: auto;
+        font-size: 10px;
+        width: 100%;
+        padding-top: 10px;
+    }
+ 
+
+}
+
+
