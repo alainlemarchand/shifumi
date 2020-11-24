@@ -19,7 +19,7 @@ $(function(){
     
     
                 $(".shifumi").draggable({revert:true});
-                $(".shifumi").draggable({revertDuration : 1500});
+                $(".shifumi").draggable({revertDuration : 700});
 
                 $(".playerOne").droppable({
 

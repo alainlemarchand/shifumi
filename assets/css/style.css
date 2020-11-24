@@ -1,12 +1,16 @@
 body {
-     background-color:  #f7975d;
+     background-color:   #e27c3e;
      color: whitesmoke;
 
 }
 
-.molleCursive {
-  font-family:   'Molle', cursive;
+.modak {
+  font-family:   'Modak', cursive;
+  font-size: 100px;
 }
+
+h1{font-size: 100px;}
+
 
 #blocOne {
     color: whitesmoke;
@@ -20,12 +24,12 @@ body {
 }
 
 .playerOne {
-    width: 80%;
+    width: 40%;
     height: auto;
 }
 
 .playerTwo {
-    width: 80%;
+    width: 40%;
     height: auto;
 }
 
@@ -37,39 +41,35 @@ body {
      background-color: #fbdba8;
      position: absolute;
      bottom: 0;
-     padding: 25px;
+     padding: 30px;
      font-size: 20px;
      font-weight: bold;
 }
 
 .color {
-    color: #f7975d;
+    color: #e27c3e;
 }
 
 .test{flex-direction: column;
 
 }
 
-@media screen and (max-width: 700px){
-  
+/*@media screen and (max-width: 800px)
+{*/
 
-   /* .shifumi {
-        max-height: 200px;
-        width: 30%;
-        border : 1px solid black;
-    
-        
-    }*/
-
-    
+    @media screen and (min-width: 780px) and (max-width: 979px){
 
 
-    .troisIllustration { 
+     .troisIllustration {  
+       
+        width: 110%;
+        height: auto;
+        margin-top: 10px;
     }
 
     .player {
         max-height: auto;
-        width: 100%;
+        width: 250%;
         height: auto;
         margin-top: 10px;
         
@@ -77,9 +77,9 @@ body {
 
     .containerFooter {
         max-height: auto;
-        font-size: 10px;
+        font-size: 20px;
         width: 100%;
-        padding-top: 10px;
+        padding-top: 5px;
     }
  
 

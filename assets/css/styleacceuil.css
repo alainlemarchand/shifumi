@@ -14,6 +14,9 @@ body {
 
 }
 
-.molleCursive {
-    font-family:   'Molle', cursive;
+.modak {
+    font-family:  'Modak', cursive;
+    font-size: 80px;
   }
+
+  @media screen and (min-width: 780px) and (max-width: 979px){}
